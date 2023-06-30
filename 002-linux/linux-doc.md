@@ -32,7 +32,7 @@ Linux 能运行主要的 UNIX 工具软件、应用程序和网络协议。它�
 
 Linux 的发行版说简单点就是将 Linux 内核与应用软件做一个打包。
 
-![1511849829609658](http://cdn.bluecusliyou.com/202202171036271.jpg)
+![1511849829609658](assets/16881085240784.jpg)
 
 
 
@@ -80,7 +80,7 @@ Linux version 3.10.0-1160.53.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (
 
 #### （4）虚拟机可以进行克隆
 
-![1635852953428](http://cdn.bluecusliyou.com/202202171036990.png)
+![1635852953428](assets/16881085240802.png)
 
 ### 2、虚拟机安装Linux
 
@@ -96,15 +96,15 @@ Linux version 3.10.0-1160.53.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (
 
 > 编辑->虚拟网络编辑器
 
-![image-20211010205112298](http://cdn.bluecusliyou.com/202202171037111.png)
+![image-20211010205112298](assets/16881085240815.png)
 
 > 修改宿主机Vmnet8网卡配置
 
-![image-20211010205950898](http://cdn.bluecusliyou.com/202202171037859.png)
+![image-20211010205950898](assets/16881085240831.png)
 
 #### （2）配置虚拟机网络
 
-![image-20211011222344126](http://cdn.bluecusliyou.com/202202171037922.png)
+![image-20211011222344126](assets/16881085240845.png)
 
 #### （3）配置虚拟机网卡信息
 
@@ -245,7 +245,7 @@ PING 192.168.1.227 (192.168.1.227) 56(84) bytes of data.
 
 #### （5）虚拟机网络通信原理
 
-![image-20211012074709522](http://cdn.bluecusliyou.com/202202171037607.png)https://mirrors.aliyun.com/centos/8.4.2105/isos/x86_64/)
+![image-20211012074709522](assets/16881085240859.png)https://mirrors.aliyun.com/centos/8.4.2105/isos/x86_64/)
 
 ### 4、购买云服务器
 
@@ -263,21 +263,21 @@ PING 192.168.1.227 (192.168.1.227) 56(84) bytes of data.
 
 > 获取服务器公网IP
 
-![1626242612035](http://cdn.bluecusliyou.com/202202171037916.png)
+![1626242612035](assets/16881085240876.png)
 
 #### （3）修改服务器登录密码
 
 点击蓝色实例名，进入实例详情，可以重置密码，也可以修改主机名
 
-![1626242708181](http://cdn.bluecusliyou.com/202202171037536.png)
+![1626242708181](assets/16881085240893.png)
 
 #### （4）配置安全组开放端口号
 
-![1626242868155](http://cdn.bluecusliyou.com/202202171038027.png)
+![1626242868155](assets/16881085240911.png)
 
 授权对象 0000表示授权给所有人
 
-![1626242999444](http://cdn.bluecusliyou.com/202202171038707.png)
+![1626242999444](assets/16881085240929.png)
 
 ### 5、宝塔面板安装
 
@@ -357,9 +357,9 @@ e6bd5bdcba5d   nginx     "/docker-entrypoint.…"   5 months ago   Up 5 months  
 
 以MobaXterm为例，输入host地址，输入账号密码就可以进行远程控制服务器了。实际上也是通过命令行连接的。
 
-![image-20220902071103262](http://cdn.bluecusliyou.com/202209020711500.png)
+![image-20220902071103262](assets/16881085240950.png)
 
-![image-20220902071817574](http://cdn.bluecusliyou.com/202209020718687.png)
+![image-20220902071817574](assets/16881085240971.png)
 
 ## 三、Linux基础
 
@@ -454,7 +454,7 @@ ls --help
 - ssh登录
 - 图形界面登录
 
-![bg2013081706](http://cdn.bluecusliyou.com/202202171038279.png)
+![bg2013081706](assets/16881085240994.png)
 
 #### （2）关机
 
@@ -498,7 +498,7 @@ bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  s
 
 #### （2）目录结构说明
 
-![d0c50-linux2bfile2bsystem2bhierarchy](http://cdn.bluecusliyou.com/202202171040724.jpg)
+![d0c50-linux2bfile2bsystem2bhierarchy](assets/16881085241016.jpg)
 
 - ==**/bin**：bin 是 Binaries (二进制文件) 的缩写, 这个目录存放着最经常使用的命令。==
 - **/boot：**这里存放的是启动 Linux 时使用的一些核心文件，包括一些连接文件以及镜像文件。
@@ -1974,7 +1974,7 @@ Vim是从 vi 发展出来的一个文本编辑器。代码补完、编译及错�
 
 ### 2、VIM键盘图
 
-![b7886b96e7c1c4097d5cc76db5d979c8](http://cdn.bluecusliyou.com/202202171041678.gif)
+![b7886b96e7c1c4097d5cc76db5d979c8](assets/16881085241026.gif)
 
 ### 3、三种命令模式
 
@@ -1990,13 +1990,13 @@ Vim是从 vi 发展出来的一个文本编辑器。代码补完、编译及错�
 
 是执行保存、退出等指令用。
 
-![61f84794a56b208bbc83092670e384e5](http://cdn.bluecusliyou.com/202202171041571.png)
+![61f84794a56b208bbc83092670e384e5](assets/16881085241038.png)
 
 ```bash
 vim filename
 ```
 
-![1637572297414](http://cdn.bluecusliyou.com/202202171041483.png)
+![1637572297414](assets/16881085241288.png)
 
 ### 4、命令模式说明
 
@@ -2558,11 +2558,11 @@ lrwxrwxrwx.   1 root root    7 May 11  2019 bin -> usr/bin
 
 #### （2）文件基本属性说明
 
-![file-llls22](http://cdn.bluecusliyou.com/202202171044165.jpg)
+![file-llls22](assets/16881085241325.jpg)
 
 > 每个文件的属性由左边第一部分的 10 个字符来确定。
 
-![363003_1227493859FdXT](http://cdn.bluecusliyou.com/202202171044712.png)
+![363003_1227493859FdXT](assets/16881085241337.png)
 
 > 在 Linux 中第一个字符代表这个文件类型。
 
@@ -3949,7 +3949,7 @@ curl -u 'bob' https://google.com/login
 - Shell 是指一种应用程序，这个应用程序提供了一个界面，用户通过这个界面访问操作系统内核的服务。
 - Ken Thompson 的 sh 是第一种 Unix Shell，Windows Explorer 是一个典型的图形界面 Shell。
 
-![image-20220801112110021](http://cdn.bluecusliyou.com/202208011121162.png)
+![image-20220801112110021](assets/16881085241365.png)
 
 #### （2）shell脚本
 
